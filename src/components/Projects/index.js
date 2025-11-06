@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on few projects since i started. Web apps and UI/UX Designs. Here are some of my projects.
+          I have worked on few projects since i started. Web apps and WordPres Web Designs. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -22,15 +22,15 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>CUSTOM WEB APP'S</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>CUSTOM WEB APP'S</ToggleButton>
           }
           <Divider />
           {toggle === 'ui/ux design' ?
-            <ToggleButton active value="ui/ux desig" onClick={() => setToggle('ui/ux desig')}>UI/UX DESIGNS</ToggleButton>
+            <ToggleButton active value="ui/ux desig" onClick={() => setToggle('ui/ux desig')}>WORDPRESS WEBSITE</ToggleButton>
             :
-            <ToggleButton value="ui/ux desig" onClick={() => setToggle('ui/ux desig')}>UI/UX DESIGNS</ToggleButton>
+            <ToggleButton value="ui/ux desig" onClick={() => setToggle('ui/ux desig')}>WORDPRESS WEBSITE </ToggleButton>
           }
           <Divider />
         </ToggleButtonGroup>

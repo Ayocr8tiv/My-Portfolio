@@ -3,17 +3,18 @@ export const Bio = {
   roles: [
     "Software Developer",
     "Frontend Developer",
-    "UI/UX Designer",
+    "WordPress Designer",
+    "UI Designer",
   ],
   description:
-    "Passionate about creating scalable, high-performance, and user-friendly web applications. Proficient in HTML, CSS, JavaScript, React.js, and modern UI frameworks, I specialize in building responsive, visually appealing, and interactive user interfaces that enhance digital experiences.",
-  github: "https://github.com/rishavchanda",
+    "Passionate about creating scalable, high-performance, and user-friendly web applications. Proficient in HTML, CSS, JavaScript, React.js, WordPress and modern UI frameworks, I specialize in building responsive, Fast, visually appealing, and interactive user interfaces web experiences that help businesses grow online.",
+  github: "https://github.com/Ayocr8tiv",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "https://heyzine.com/flip-book/bddbcf9804.html",
+  linkedin: "https://www.linkedin.com/in/ayokunle-oloidi-a57718357/",
+  // twitter: "https://twitter.com/RishavChanda",
+  // insta: "https://www.instagram.com/rishav_chanda/",
+  // facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [
@@ -141,9 +142,9 @@ export const skills = [
               image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png",
       },
       {
-        name: "Netlify",
+        name: "WordPress",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://pngimg.com/uploads/wordpress/wordpress_PNG28.png",
       },
       {
         name: "VS Code",
@@ -175,7 +176,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBemhg5Az9yO17WCCvHmDxBZGME1sgWZt5g&s",
     role: "Software Development Intern",
     company: "GoMyCode",
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 - 2025",
     desc: "Developed and optimized web apps using HTML, CSS, JavaScript, React, and Tailwind CSS.",
     
     skills: [
@@ -200,7 +201,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBemhg5Az9yO17WCCvHmDxBZGME1sgWZt5g&s",
     role: "Software Development Intern",
     company: "GoMyCode",
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 - 2025",
     desc: "Built and maintained backend functionality using Node.js, Express.js, and MongoDB, handling API development, database management, and server-side logic.",
     
     skills: [
@@ -226,7 +227,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBemhg5Az9yO17WCCvHmDxBZGME1sgWZt5g&s",
     role: "Software Development Intern",
     company: "GoMyCode",
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 - 2025",
     desc: "Implemented responsive and user-friendly designs, improving accessibility and cross-device compatibility. Collaborated in an agile team, contributing to code reviews and discussions.",
     
     skills: [
@@ -251,7 +252,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBemhg5Az9yO17WCCvHmDxBZGME1sgWZt5g&s",
     role: "Software Development Intern",
     company: "GoMyCode",
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 - 2025",
     desc: "Developed and integrated RESTful APIs, ensuring efficient communication between the frontend and backend systems. Debugged and tested applications to ensure performance and reliability. Worked with Git/GitHub, authentication (JWT), and database optimization.",
     
     skills: [
@@ -274,15 +275,16 @@ export const experiences = [
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Cpx0-4GyPNTT06JUFrqz9tGBaPOZPfc7gw&s",
-    role: "UI/UX Designer Freelance",
+    role: "UI/UX Web Designer Freelance",
     company: "Fiverr",
-    date: "March 2022 - Aug 2024",
+    date: "March 2022 - Present",
     desc: "I’ve collaborated with various clients across industries—real estate, fintech, and personal branding—to deliver intuitive and modern digital interfaces. My work blends user-centric design principles with visual creativity to ensure not only aesthetic appeal but also seamless functionality.",
     
     skills: [
       "Figma",
       "Adobe XD",
       "Framer",
+      "WordPress",
       "Adobe Photoshop",
       "Corel Draw",
       
@@ -314,40 +316,96 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Avery Store",
+    title: "Sushi Restaurant",
     date: "Feb 2025 - Mar 2025",
     description:
-      "During my Learning, I contributed to the development of Avery Store where i did the Front and Backend, a fully functional e-commerce website designed to provide a seamless online shopping experience for users. The platform was built to support a wide range of consumer products, including fashion, electronics, beauty products, and lifestyle accessories.",
-    image: require('../../src/images/ProjectImg.jpeg'),
+      "The Sushi Restaurant Website provides an elegant user experience with a clean, minimal design and smooth navigation. Visitors can browse through beautifully presented sushi categories, view detailed dish descriptions, check daily specials, and place online orders seamlessly.",
+    image: require('../../src/images/Full stack Website Development.png'),
     tags: [
       "React Js",
       "Tailwind CSS",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
+      "Vite",
+      "Vercel",
+      "Figma",
       "Redux",
     ],
     category: "web app",
-    github: "https://github.com/Ayocr8tiv/render.git",
-    webapp: "https://render-kjbq.onrender.com",
+    github: "https://github.com/Ayocr8tiv/Sushi-website.git",
+    webapp: "https://sushi-website-xi.vercel.app/",
   },
 
   {
     id: 1,
-    title: "Elegance",
-    date: "Dec 2024 - Dec 2024",
+    title: "Caerus Reality",
+    date: "April 2025 - Present",
     description:
-      "Elegance Jewelries is a sleek and visually captivating single-page landing website created to showcase a premium jewelry brand. The goal of the site was to reflect luxury, beauty, and simplicity—all through clean UI, smooth interactions, and an elegant layout.",
-    image: require('../../src/images/Elegance.jpeg'),
+      "During my Learning, I contributed to the development of Caerus Reality where i did the Frontend development, a fully Responsive website designed to We simplify real estate ownership and investment, making it a seamless and rewarding experience for every client. Let us be your trusted partner in achieving success and growth through real estate.",
+    image: require('../../src/images/Full stack Website Development (2).png'),
     tags: [
       "React Js",
       "HTML",
       "Vite",
       "Tailwind CSS",
+      "Figma",
+      "Redux",
+      "Axios",
+      "Postman",
+      "Framer motion",
+      "REST API",
     ],
     category: "web app",
-    github: "https://github.com/Ayocr8tiv/Elegance.git",
-    webapp: "https://elegance-iota.vercel.app/",
+    github: "https://github.com/kingonyeka/CAERUS-REALTY.gitx",
+    webapp: "https://caerus-realty.vercel.app/",
+  },
+
+  {
+    id: 2,
+    title: "Caerus Investment",
+    date: "April 2025 - Present",
+    description:
+      "At Caerus Investment, we believe real estate should be simple, secure, and profitable—not reserved for the wealthy or burdened by complexity. We're transforming land ownership in Nigeria by making it accessible to everyone through a trusted, technology-driven platform.",
+    image: require('../../src/images/Full stack Website Development (3).png'),
+    tags: [
+      "React Js",
+      "HTML",
+      "Vite",
+      "Tailwind CSS",
+      "Figma",
+      "Redux",
+      "Axios",
+      "Postman",
+      "Framer motion",
+      "REST API",
+      "Vercel",
+    ],
+    category: "web app",
+    github: "https://github.com/kingonyeka/caerus-invest-prod.git",
+    webapp: "https://caerus-invest-prod.vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "CryptoVerse",
+    date: "Dec 2024 - Mar 2025",
+    description:
+      "CryptoVerse is a modern cryptocurrency web application designed to provide real-time market data, insights, and trends from the crypto world. The platform allows users to explore live cryptocurrency prices, detailed coin information, historical charts, and the latest crypto news — all in one sleek, responsive interface.",
+    image: require('../../src/images/Full stack Website Development (4).png'),
+    tags: [
+      "React Js",
+      "HTML",
+      "Vite",
+      "Tailwind CSS",
+      "Figma",
+      "Redux",
+      "Axios",
+      "Postman",
+      "Framer motion",
+      "REST API",
+      "Vercel",
+    ],
+    category: "web app",
+    github: "https://github.com/Ayocr8tiv/crypto-app-reactjs.git",
+    webapp: "https://crypto-app-reactjs.vercel.app/",
   },
   // {
   //   id: 2,
@@ -379,9 +437,9 @@ export const projects = [
   {
     id: 3,
     title: "Elegance",
-    date: "Dec 2024 - Dec 2024",
+    date: "April 2025 - Present",
     description:
-      "Elegance Jewelries is a premium jewelry brand that required a modern, luxurious, and minimalistic online presence. I was tasked with figma designing a visually captivating single-page landing website that reflects the brand's identity—elegance, class, and timeless beauty.",
+      "During my Learning, I contributed to the development of Caerus Reality where i did the Frontend development, a fully Responsive website designed to We simplify real estate ownership and investment, making it a seamless and rewarding experience for every client. Let us be your trusted partner in achieving success and growth through real estate.",
     image: require('../../src/images/Figma.jpeg'),
     tags: ["Figma"],
     category: "ui/ux desig",
